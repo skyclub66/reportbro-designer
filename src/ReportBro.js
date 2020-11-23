@@ -42,12 +42,14 @@ export default class ReportBro {
             additionalFonts: [],
             adminMode: true,
             cmdExecutedCallback: null,
-            defaultFont: Style.font.helvetica,
+            defaultFont: Style.font.wqy,
             enableSpreadsheet: true,
             fonts: [
                 { name: 'Courier', value: Style.font.courier },
                 { name: 'Helvetica', value: Style.font.helvetica },
-                { name: 'Times New Roman', value: Style.font.times }
+                { name: 'Times New Roman', value: Style.font.times },
+                { name: '文泉驿等宽微米黑', value: Style.font.wqy },
+
             ],
             highlightUnusedParameters: false,
             localStorageReportKey: null,

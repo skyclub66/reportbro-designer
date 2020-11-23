@@ -47,7 +47,7 @@ export default class TextElement extends DocElement {
         this.cs_verticalAlignment = Style.alignment.top;
         this.cs_textColor = '#000000';
         this.cs_backgroundColor = '';
-        this.cs_font = Style.font.helvetica;
+        this.cs_font = Style.font.wqy;
         this.cs_fontSize = 12;
         this.cs_lineSpacing = 1;
         this.cs_borderColor = '#000000';

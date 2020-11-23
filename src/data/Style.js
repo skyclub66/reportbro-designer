@@ -229,7 +229,8 @@ export default class Style {
 Style.font = {
     courier: 'courier',
     helvetica: 'helvetica',
-    times: 'times'
+    times: 'times',
+    wqy:'文泉驿等宽微米黑'
 };
 
 Style.alignment = {
